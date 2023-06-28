@@ -28,3 +28,8 @@ vendor/
 Thumbs.db
 .DS_Store
 *.swp
+.idea/.gitignore
+.idea/asc-go.iml
+.idea/modules.xml
+.idea/thriftCompiler.xml
+.idea/vcs.xml

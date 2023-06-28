@@ -1,4 +1,4 @@
-module github.com/cidertool/asc-go
+module github.com/wave2588/asc-go
 
 go 1.16
 
