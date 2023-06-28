@@ -211,7 +211,7 @@ func (s *ProvisioningService) EnableCapability(ctx context.Context, capabilityTy
 		Type: "bundleIdCapabilities",
 	}
 	res := new(BundleIDCapabilityResponse)
-	resp, err := s.client.patch(ctx, "bundleIdCapabilities", newRequestBody(req), res)
+	resp, err := s.client.post(ctx, "bundleIdCapabilities", newRequestBody(req), res)
 
 	return res, resp, err
 }
