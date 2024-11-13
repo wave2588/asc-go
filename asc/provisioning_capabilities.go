@@ -87,6 +87,9 @@ const (
 	CapabilityTypeWallet CapabilityType = "WALLET"
 	// CapabilityTypeWirelessAccessoryConfiguration is a capability type for WirelessAccessoryConfiguration.
 	CapabilityTypeWirelessAccessoryConfiguration CapabilityType = "WIRELESS_ACCESSORY_CONFIGURATION"
+
+	CapabilityTypeIncreasedMemoryLimitDebugging CapabilityType = "INCREASED_MEMORY_LIMIT_DEBUGGING"
+	CapabilityTypeIncreasedMemoryLimit          CapabilityType = "INCREASED_MEMORY_LIMIT"
 )
 
 // BundleIDCapability defines model for BundleIdCapability.
